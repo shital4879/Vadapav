@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vada Pav</title>
-    <link rel="stylesheet" href="v.css">
+    <link rel="stylesheet" href="./style.css">
     <!--cdn font -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- poppins -->
@@ -15,21 +15,24 @@
 <body>
     <header class="header">
         <div class="logo">
-            <img src="./logo-white.png" alt="">
+            <img src="./Images/logo-white.png" alt="">
         </div>
         <div class="menu-icon" id="menu-icon">
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
+
+                <ul class="navbar" id="navbar">
+                    <li><a class="active" href="# #home">Home</a></li>
+                    <li><a href="#about">Menu</a></li>
+                    <li><a href="#popular">popular</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#footer">Contact</a></li>
+            </ul>
+
             <i class="fa-solid fa-bars" id="btn"></i>
         </label>
         </div>
-        <ul class="navbar" id="navbar">
-                <li><a class="active" href="# #home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="# #menu">Menu</a></li>
-                <li><a href="# #services">Services</a></li>
-                <li><a href="# #contact">Contact</a></li>
-        </ul>
+        
     </header>
 
     <!-- home page -->
@@ -40,20 +43,20 @@
             <a href="#" class="btn">Order Now</a>
         </div>
         <div class="home-img">
-            <img src="./home.webp" alt="">
+            <img src="./Images/home.webp" alt="">
         </div>
     </section>
 
     <!-- about page -->
-    <section class="about" id="#about">
+    <section class="about" id="about">
         <div class="heading">
             Our <span>Speciality</span>
         </div>
         <div class="about-1">
             <div class="a1">
-                <div class="img"><img src="./img1.jpg" alt=""></div>
+                <div class="img"><img src="./Images/img1.jpg" alt=""></div>
                 <div class="img">
-                    <img src="./img2.jpg" alt="">
+                    <img src="./Images/img2.jpg" alt="">
                 </div>
                 <p>“Indulge in the simplicity <br> and flavors of a vada pav.”</p>
                 </div>
@@ -75,10 +78,10 @@
             <div class="a3">
                 <p class="a1p">“Make way for the vada pav, <br> the superhero of snacks.”</p>
                 <div class="img">
-                    <img src="./img3.jpg" alt="">
+                    <img src="./Images/img3.jpg" alt="">
                 </div>
                 <div class="img">
-                    <img src="./img4.webp" alt="">
+                    <img src="./Images/img4.webp" alt="">
                 </div>
             </div>
         </div>
@@ -91,7 +94,7 @@
 
             <div class="b1">
                 <div class="b1-img">
-                    <img src="./b1.jpg" alt="">
+                    <img src="./Images/b1.jpg" alt="">
                 </div>
                 <h2>Classic Vada Pav</h2>
                 <h3><i class="fa-solid fa-star"></i>
@@ -103,7 +106,7 @@
             </div>
             <div class="b1">
                     <div class="b1-img">
-                    <img src="./b2.webp" alt="">
+                    <img src="./Images/b2.webp" alt="">
                     </div>
                     <h2>Paneer Vada Pav</h2>
                     <h3><i class="fa-solid fa-star"></i>
@@ -115,7 +118,7 @@
                 </div>
                 <div class="b1">
                     <div class="b1-img">
-                    <img src="./b3.jpg" alt="">
+                    <img src="./Images/b3.jpg" alt="">
                     </div>
                     <h2>Cheese Vada Pav</h2>
                     <h3><i class="fa-solid fa-star"></i>
@@ -136,16 +139,16 @@
          </div>
          <div class="gallery-img">
             <div class="c1">
-                <img src="./c1.jpg" alt="">
+                <img src="./Images/c1.jpg" alt="">
             </div>
             <div class="c1">
-                <img src="./c2.jpg" alt="">
+                <img src="./Images/c2.jpg" alt="">
             </div>
             <div class="c1">
-                <img src="./c3.webp" alt="">
+                <img src="./Images/c3.webp" alt="">
             </div>
             <div class="c1">
-                <img src="./c4.jpg" alt="">
+                <img src="./Images/c4.jpg" alt="">
             </div>
             <div class="c1" id="c1-4">
                 <h2>Tasty Food</h2>
@@ -153,7 +156,7 @@
                 <a href="#" class="btn">Order Now</a>
             </div>
             <div class="c1">
-                <img src="./c6.webp" alt="">
+                <img src="./Images/c6.webp" alt="">
             </div>
         </div>
     </section>
@@ -164,7 +167,7 @@
         <div class="review-1">
             <div class="d1">
                 <div class="d1-img">
-                    <img src="./r1.webp" alt="">
+                    <img src="./Images/r1.webp" alt="">
                 </div>
                 <h3>Monika Gellar</h3>
                 <h3><i class="fa-solid fa-star"></i>
@@ -177,9 +180,9 @@
 
             <div class="d1">
                 <div class="d1-img">
-                    <img src="./r2.jpg" alt="">
+                    <img src="./Images/r2.jpg" alt="">
                 </div>
-                <h3>Chandler Bing</h3>
+                <h3>Joe Tribayani</h3>
                 <h3><i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -190,7 +193,7 @@
 
             <div class="d1">
                 <div class="d1-img">
-                    <img src="./r3.webp" alt="">
+                    <img src="./Images/r3.webp" alt="">
                 </div>
                 <h3>Rachel Green</h3>
                 <h3><i class="fa-solid fa-star"></i>

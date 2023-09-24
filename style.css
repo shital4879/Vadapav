@@ -61,11 +61,11 @@ header{
 a.active,a:hover{
     color: #27ed7a;
 }
-/* #menu-icon{
+#menu-icon i{
     display: none;
     font-size: 2rem;
     cursor: pointer;
-} */
+}
 section{
     margin-top: 80px;
     padding: 50px 10%;
@@ -318,7 +318,7 @@ section{
     text-align: center;
     background-color: #58585b;
     color: #fff;
-    height: 300px;
+    height: 350px;
     width: 250px;
     padding: 20px;
     box-shadow: 0px 2px 5px 2px rgb(141, 119, 119);
@@ -469,7 +469,12 @@ section{
    .checkbtn{
     display: block;
    }
- 
+   #check ~ ul{
+    display: none;
+}
+#check:checked ~ ul{
+    display: block;
+}
 
     header{
         padding: 10px 15px;
